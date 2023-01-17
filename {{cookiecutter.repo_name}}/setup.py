@@ -1,6 +1,3 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
-setup(
-    name="{{ cookiecutter.package_name }}",
-    packages=find_packages(),
-)
+setup(name="{{ cookiecutter.package_name }}")
